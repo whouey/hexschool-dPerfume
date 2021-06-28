@@ -1,0 +1,22 @@
+.top-bar{
+    height: 52px;
+}
+
+.product{
+    .product-img{
+        height: 255px;
+        width: 255px;
+    }
+}
+
+.modal
+{
+    .modal-dialog{
+        width: 165px;
+
+        @include bigger-than("md")
+        {
+            width: 540px;
+        }
+    }
+}

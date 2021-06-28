@@ -1,0 +1,40 @@
+.btn-inherit{
+    color: inherit;
+}
+
+.btn-rounder{
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+.btn-rounder-light{
+    color: $white;
+
+    &:hover{
+        color: inherit;
+        background-color: #FFFFFF4D;
+    }
+}
+
+.btn-rounder-dark{
+    color: $dark;
+
+    &:hover{
+        color: inherit;
+        background-color: #0000000D;
+    }
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.card-sm {
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,26 @@
+// overriding bootstrap variables
+
+$primary: #916000;
+
+$link-decoration: none;
+
+$navbar-light-color:                #8d8d8d;
+$navbar-light-toggler-border-color: transparent;
+
+$btn-focus-width: 0;
+$btn-focus-box-shadow: none;
+
+$headings-line-height: 1.5;
+$card-border-width: 0;
+$card-bg: transparent;
+
+$hover-fade-amount: 26%;
+$btn-hover-bg-shade-amount:       $hover-fade-amount;
+$btn-hover-border-shade-amount:   $hover-fade-amount;
+
+$pagination-active-color:           $primary;
+$pagination-active-bg:              #fff;
+
+
+$pagination-border-width:           0;
+$pagination-color:                  #000;

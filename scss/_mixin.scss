@@ -1,0 +1,19 @@
+@function get-breakpoint-size($breakpoint-name) {
+  $breakpoint-size: map-get(
+    $map: $grid-breakpoints,
+    $key: $breakpoint-name,
+  );
+  @return $breakpoint-size;
+}
+
+@mixin bigger-than($breakpoint-name, $breakpoint-size: get-breakpoint-size($breakpoint-name)) {
+  @media (min-width: $breakpoint-size) {
+    @content;
+  }
+}
+
+@mixin smaller-than($breakpoint-name, $breakpoint-size: get-breakpoint-size($breakpoint-name)) {
+  @media (max-width: $breakpoint-size) {
+    @content;
+  }
+}
